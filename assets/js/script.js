@@ -1,5 +1,6 @@
 //DOM elements
 const question = document.getElementById("question");
+const choices = Array.from(document.getElementsByClassName("text"));
 let quizArea = document.getElementById('quiz-area');
 let displayQuestions = document.getElementById('question-area');
 let optionA = document.getElementById('answer-a');
