@@ -1,9 +1,15 @@
 //DOM elements
+const question = document.getElementById("question");
 let quizArea = document.getElementById('quiz-area');
 let displayQuestions = document.getElementById('question-area');
 let optionA = document.getElementById('answer-a');
 let optionB = document.getElementById('answer-b');
 let optionC = document.getElementById('answer-c');
+
+let currentQuestion = {};
+let acceptingAnswers = true;
+let score = 0;
+let availableQuestions = []
 
 let questions = [
     {
@@ -11,7 +17,7 @@ let questions = [
         option1: 'Mt.Brandon',
         option2: 'Mt.Patrick',
         option3: 'Mt.Alps',
-        Answer: 1,
+        answer: 1,
         
     },
 ]
