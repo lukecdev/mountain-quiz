@@ -22,3 +22,12 @@ let questions = [
         
     },
 ]
+
+function startquiz()[
+    displayQuiz();
+    availableQuestions = [...questions];
+]
+
+function displayQuiz(){
+    quizArea.style.display = "block";
+}
