@@ -1,7 +1,9 @@
 
 
 body {
-    background-image: url('../images/background.jpg');
+    background-image: url('../images/mt-range.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
     background-color: antiquewhite;
     text-align: center;
 }
