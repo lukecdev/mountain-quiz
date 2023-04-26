@@ -57,7 +57,7 @@ startGame = () => {
 getNewQuestion = () => {
 
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
-        return window.location.assign('/e.html');
+        return window.location.assign('/start.html');
     }
     questionCounter++;
     /* Get a question from available questions */
@@ -81,7 +81,13 @@ getNewQuestion = () => {
             const selectedOption = e.target;
             const selectedAnswer = selectedOption.dataset["number"];
 
-            console.log(selectedAnswer == currentQuestion.answer);
+            const classToApply = 
+            selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
+
+            
+            
+
+            
 
             getNewQuestion();
         });
