@@ -5,3 +5,33 @@ body {
     background-color: antiquewhite;
     text-align: center;
 }
+
+.container {
+    width: 100vm;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    margin: 0 auto;
+}
+
+.option-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.5rem;
+    border: 0.2rem solid red;
+    background-color: whitesmoke;
+}
+
+.option-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: aliceblue;
+    color: black;
+}
+
+.option-text {
+    padding: 1.5rem;
+    width: 100%;
+}
