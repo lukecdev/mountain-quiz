@@ -9,23 +9,41 @@
 
 </head>
 <body>
+
+    <div class="container">
+        <div id="game" class="justify-center flex-colum">
+            <h2 id="question">What mountain is 1000m tall?</h2>
+            <div class="class-container">
+                <p class="option-prefix">A</p>
+                <p class="option-text" data-number="1">Option 1</p>
+            </div>
+            <div class="class-container">
+                <p class="option-prefix">B</p>
+                <p class="option-text" data-number="2">Option 2</p>
+            </div>
+            <div class="class-container">
+                <p class="option-prefix">C</p>
+                <p class="option-text" data-number="3">Option 3</p>
+            </div>
+            
+        </div>
+    </div>
+
     <h1 class="heading">
 
     </h1>
 <!--quiz area with questions and answers-->
-    <div id="quiz-area" class="display">
-        <!--displays question from js file-->
-        <div class="quiz-questions">
-            <div id="question">Question</div>
-        </div>
+        <p class="question-area" id="question">Questions</p>
+        <div class="answers-section">
         <!--displays answers options from js file -->
-        <div id="answers">
+        
             <button class="answer-btn text" id="answer-a">Option 1</button>
             <button class="answer-btn text" id="answer-b">Option 2</button>
             <button class="answer-btn text" id="answer-c">Option 3</button>
         </div>
 
-    </div>
+    </div> 
+
 
     <script src="assets/js/script.js"></script>   
 </body>
