@@ -81,6 +81,8 @@ getNewQuestion = () => {
             const selectedOption = e.target;
             const selectedAnswer = selectedOption.dataset["number"];
 
+            console.log(selectedAnswer == currentQuestion.answer);
+
             getNewQuestion();
         });
     });
